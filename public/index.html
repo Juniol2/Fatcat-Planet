@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FATCAT PLANET</title>
+  <link rel="icon" type="image/png" href="/build/images/LOGO01.png" /> 
+  <link rel="stylesheet" href="/build/main.css">
+  <script src="/build/main.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+
+    .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3,25%);  /* 3 columns */
+  grid-template-rows: repeat(3,280px); /* 3 rows  */
+  margin-left: 300px;
+  /* float:center;  */
+
+}
+    
+    .grid-container2 {
+      display: grid;
+      grid-template-columns: repeat( 3, minmax(400px, 1fr) );
+      justify-items: center;
+      /* background-color: #2196F3; */
+      padding: 70px;
+       float:right; 
+    }
+
+    .grid-container3 {
+      display: grid;
+      grid-template-columns: repeat( 2, minmax(250px, 1fr) );
+      justify-items: center;
+      /* background-color: #2196F3; */
+      padding: 10px;
+       float:right; 
+    }
+
+    .grid-container4 {
+      display: grid;
+      grid-template-columns: repeat( 4, minmax(150px, 4fr) );
+      justify-items: center;
+      /* background-color: #2196F3; */
+      padding: 100px;
+      float:center;  
+       
+    }
+
+    .grid-container5 {
+      display: grid;
+      grid-template-columns: repeat( 3, minmax(400px, 1fr) );
+      justify-items: center;
+      /* background-color: #2196F3; */
+      /* padding: 70px; */
+       float:right; 
+    }
+
+    .grid-item {
+      /* background-color: rgba(255, 255, 255, 0.8); */
+      /* border: 1px solid rgba(0, 0, 0, 0.8); */
+       padding: 20px;
+      font-size: 30px;
+      text-align: center; 
+      
+    }
+    .center {
+  text-align: center;
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 7%;
+  left: 35%;
+  font-size: 1.5vw;
+}
+
+.top-left {
+  position: absolute;
+  top: 42%;
+  left: 30%;
+  font-size: 1.5vw;
+  
+  
+}
+
+.top-left2 {
+  position: absolute;
+  top: 42%;
+  left: 48%;
+  font-size: 1.5vw;
+  
+  
+}
+
+.top-right {
+  position: absolute;
+  top: 42%;
+  right: 27%;
+  font-size: 1.5vw;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 7%;
+  right: 38%;
+  font-size: 1.5vw;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ 
+  /*-----------------------*/
+
+  a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none !important;
+
+}
+    </style>
+  
+  
+</head>
+<body>
+  <main>
+    <!-- <img id="logo" src="/build/images/logo.png" alt="Logo" /> -->
+    <nav class="sticky navbar">
+      <div class="brand  display__logo">
+         <a href="#top" class="nav__link" ><span class="logo">
+          <img class="manImg" src="/build/images/FATCAT.png" width="200" height="200"></img></span></a>
+      </div>
+    
+      <input type="checkbox" id="nav" class="hidden" />
+      <label for="nav" class="nav__open"><i></i><i></i><i></i></label>
+      <div class="nav">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">Introduction</a></li>
+          <li class="nav__item"><a href="#portfolio" class="nav__link">Story</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Roadmap</a></li>
+          <li class="nav__item"><a href="#benefits" class="nav__link">Benefits</a></li>
+          <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+          <li class="nav__item"><a href="mint.html" class="nav__link">Mint</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <main>
+      <section class="home" style="background-image: url('/build/images/Meow.gif'); background-size: 100% 100%;">
+        <div id="home">
+          <div align="center">
+            <!-- <img src="/build/images/FATCAT.png" width="450" height="150"><br></br> -->
+            <!-- <img src="/build/images/LOGO01.png" width="250" height="150"><br></br>
+            <p class="fheader" >WELCOME TO FATCAT PLANET</p><br></br>
+            <P class="blocktext"  >As we are a community of cat lovers committed. Fat Cat Planet is the collection of 10,000 randomly
+              generated NFTs on the Ethereum blockchain to represent global cat lovers.
+            </P>
+            </div>
+            <div align="center">
+            <img src="/build/images/CATS MAIN.png" width="1500" height="150">
+          </div> -->
+          <img src="/build/images/WELCOME.png" width="80%">
+        </div>
+      </section>
+     
+      <!-- <section class="about" style="background-color: rgb(240 249 255)"> -->
+        <section class="about" style="background-image: url('/build/images/Meow.gif'); background-size: 100% 120%;">
+        
+        <div id="about" >
+          <br></br>
+
+              <!-- <div id="minting-dapp"></div> -->
+
+              <!-- <p class="Introduction">Introduction<img src="/build/images/COLLAR GREEN.png"  width="150" height="50" id="im"> </P> <br></br> -->
+              <!-- <p class="Introduction">Introduction</P> 
+              <P class="blocktext">Too many cats out there who are looking for love. That is why "The Fat Cat Planet "
+                has offered to act as a representative to assist these needy cats in feeding food 
+                and organizing better living conditions. After expenses are paid, the remaining funds
+                will be utilized to purchase food for straying cats and donated to the Homeless Animal Foundation. For medicines, vaccines, food and help them find their new home, let's join Fat Cat Planet together.
+                
+            </P> -->
+            <div align="center">
+            <img src="/build/images/Introduction.png" width="80%">
+            </div>
+
+         <!-- <div class="grid-container2" > 
+          <div  class="grid-item"><img src="/build/images/INTRO04.png" width="250" height="150"></div>    
+          <div  class="grid-item"><img src="/build/images/INTRO03.png" width="250" height="150"></div>  
+          <div  class="grid-item"><img src="/build/images/INTRO01.png" width="250" height="150"></div>
+        </div> -->
+      
+
+        </div>
+      </section>
+
+      <section class="portfolio" style="background-image: url('/build/images/Meow.gif'); background-size: 100% 70%;">
+        <div id="portfolio">
+       
+           <!-- <div class="grid-container3" >
+            
+          </div> -->
+       
+        
+          <!-- <p class="Introduction">Fat Cat Story
+           </P> 
+           
+            <P class="blocktext">The beginning was caused by the project's owner attending a pet fair. </P>
+            <P class="blocktext">The event then includes a beauty contest for various breeds of cats.  </P>         
+            <P class="blocktext">So he went to stand there and observe. While watching the cats in the competition.  </P> 
+            <P class="blocktext">Their mission is to find new homes for puppies and kittens.   </P> 
+            <P class="blocktext">So he stood there watching those cats and dogs play happily in the cage.   </P> 
+            <P class="blocktext"> Many of them coexist but have no owners don't have their own home.  </P> 
+
+            <div class="grid-container3">
+              <div  class="grid-item" ><img src="/build/images/Story.png" width="300" height="150"></div>  
+            </div>
+
+            <P class="blocktext">while the other cat who took part in the contest  </P> 
+            <P class="blocktext">The owners' entire family came to show their support.   </P> 
+            <P class="blocktext">As a result, the notion that we must act arises. </P> 
+            <P class="blocktext">The idea is to throw a party and invite everyone to join in on the fun.  </P> 
+            <P class="blocktext">The remaining event proceeds will then be used to assist those homeless animals.  </P> 
+            <P class="blocktext">That’s why this NFT project was born.   </P> 
+            <br></br> -->
+
+            
+
+            <div align="center">
+              <div  class="grid-item"><img src="/build/images/Story.png" width="100%" height="100%" > </div>
+              <br>
+              <img src="/build/images/move two.gif"  width="30%" height="150" class="rounded">
+            </div>  
+              <br></br>
+               
+        </div>  
+
+
+        <!-- style="background-color: rgb(240,249,255)" -->
+
+      </section>
+      <!-- style="background-image: url('/build/images/FATCAT_LAYOUT.png'); background-size: 100% 100%;" -->
+                
+      <!-- <div align="center">
+        <p class="fheader">Roadmap</p><br></br>  
+      </div> -->
+      <!-- <section class="contact2"    style="background-image: url('/build/images/ROADMAP_FATCAT.png') " width="100%"> -->
+      <section class="contact2">
+        <div id="contact">
+
+           <img src="/build/images/ROADMAP_FATCAT.png" width="100%">
+          <!-- <div class="grid-container5" >  -->      
+        <!-- </div> -->
+       
+      </div>
+      </section>
+     
+    
+      
+    <section class="benefits" style="background-image: url('/build/images/Meow.gif'); background-size: 100% 70%;"> 
+      <div id="benefits" >
+        <br></br>
+        <!-- <div align="center">
+          <p class="fheader">BENEFITS</p>
+        </div> -->
+        <!-- <div class="grid-container4">
+        <div ><img src="/build/images/01.png" width="80%">
+        </div> 
+        <div ><img src="/build/images/02.png" width="80%"><br>
+      </div>
+    <div ><img src="/build/images/03.png" width="80%"><br>
+  </div>
+<div ><img src="/build/images/04.png" width="80%"><br>
+</div>
+</div> -->
+<div align="center">
+<img src="/build/images/BENEFITS.png" width="90%">
+</div>
+<!-- <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>   -->
+<div  class="center">
+<!-- <p class="fheader">The Seven colors of Cats In this collection</p><br></br><br></br> -->
+<!-- <font size="7">In this collection </font> -->
+
+     
+  <!-- <div class="grid-container">
+    <div  class="grid-item"><img src="/build/images/BLACK CAT.png"  > Black Cat</div>
+      <div  class="grid-item"><img src="/build/images/ORANGE CAT.png"  >Orange Cat</div>
+        <div   class="grid-item"><img src="/build/images/SILVER CAT.png"  >Silver Cat </div>
+          <div   class="grid-item"><img src="/build/images/TABBY CAT.png" >Brown Tabby Cat </div>
+            <div   class="grid-item"><img src="/build/images/WHITE CAT.png"  >White Cat </div>
+              <div   class="grid-item"><img src="/build/images/RARE CAT.png" >Calico , Gray(Rare)</div>
+            </div> -->
+            <div align="center">
+            <img src="/build/images/Seven colors.png" width="70%">
+            </div>
+            <br><br>
+</div>
+</div>
+</section>
+
+  <section class="team2" style="background-image: url('/build/images/Meow.gif'); background-size: 100% 100%;">
+    <div id="team" >
+      <!-- <div align="center">
+        <p class="fheader">THE CREW</p><br></br>
+      </div> -->
+ 
+      <!-- <div class="yrow5"><img src="/build/images/OPEX.png" class="rounded"><br>
+        <font size="6">Opex</font>
+           <P class="blocktext3">Co-founder/Marketing </P> 
+      </div>
+      <div class="yrow5"><img src="/build/images/MKTYA.png" class="rounded"><br>
+        <font size="6">Mktya</font>
+           <P class="blocktext3">Co-founder/Artist</P> 
+      </div>
+      <div class="yrow5"><img src="/build/images/FREAK BOY.png" class="rounded"><br>
+        <font size="6">FreakBoyZ</font>
+           <P class="blocktext3">Head of Community </P> 
+      </div>
+      
+<div class="center"> 
+      <div class="yrow5"><img src="/build/images/Radab.png" class="rounded"><br>
+        <font size="6">Ra_Dub_Pates</font>
+           <P class="blocktext3">Discord Expert </P> 
+      </div>
+      <div class="yrow5"><img src="/build/images/TON.png" class="rounded"><br>
+        <font size="6">DailyLab</font>
+           <P class="blocktext3">Solidity Developer and Contract Auditor</P> 
+      </div>
+</div> -->
+<div class="container2">
+<div align="center" >
+<img src="/build/images/THE_CREW.png" width="70%"> 
+
+<div class="top-left"><a href="https://www.instagram.com/opexoscoffee" target="_blank" >Opex</a></div>
+<div class="top-left2">Mktya</div>
+<div class="top-right">FreakBoyZ</div>
+<div class="bottom-left">Ra_Dub_Pates</div>
+<div class="bottom-right" ><a href="https://discord.gg/CBfgxcFeB9" target="_blank" >DailyLab</a></div>
+</div>
+</div>
+    </div>
+  </section>
+</main>
+
+    <!--------- START FOOTER ----------->
+    <br></br>
+    <div class="footer-basic">
+      <footer>
+          <div class="social"> 
+            <a href="https://twitter.com/Fatcat_planet" target="_blank"><img src="/build/images/Twitter.png" /></a>
+            <a href="https://www.facebook.com/FatCatPlanet" target="_blank"><img src="/build/images/Facebook.png"/></a>
+            <a href="https://instagram.com/fatcat_planet?igshid=YmMyMTA2M2Y=" target="_blank"><img src="/build/images/IG.png"/></a>   
+            <a href="https://discord.com/invite/fatcatplanet" target="_blank"><img src="/build/images/Discord.png"/></a>  
+      </footer>
+    
+    
+         <!--------- END FOOTER ----------->
+
+
+
+    
+
+    </div>
+  </main>
+</body>
+</html>
